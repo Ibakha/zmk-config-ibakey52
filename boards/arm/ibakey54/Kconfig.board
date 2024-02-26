@@ -1,0 +1,7 @@
+
+
+config SHIELD_IBAKEY54_LEFT
+    def_bool ${shield_list_contains,ibakey54_left}
+
+config SHIELD_IBAKEY54_RIGHT
+    def_bool ${shield_list_contains,ibakey54_right}
