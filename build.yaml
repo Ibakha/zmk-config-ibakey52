@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ibakey52_left
+    shield: ibakey52_left nice_view_adapter nice_view
   - board: nice_nano_v2
-    shield: ibakey52_right
+    shield: ibakey52_right nice_view_adapter nice_view
