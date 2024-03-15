@@ -1,0 +1,10 @@
+# Ibakey52 shield configuration
+
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_IBAKEY52_LEFT
+    def_bool $(shields_list_contains,ibakey52_left)
+
+config SHIELD_IBAKEY52_RIGHT
+    def_bool $(shields_list_contains,ibakey52_right)
