@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_IBAKEY52_LEFT
-    def_bool ${shield_list_contains,ibakey52_left}
+    def_bool $(shields_list_contains,ibakey52_left)
 
 config SHIELD_IBAKEY52_RIGHT
-    def_bool ${shield_list_contains,ibakey52_right}
+    def_bool $(shields_list_contains,ibakey52_right)
