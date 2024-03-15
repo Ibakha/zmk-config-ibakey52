@@ -19,6 +19,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ibakey54_left
+    shield: ibakey52_left
   - board: nice_nano_v2
-    shield: ibakey54_right
+    shield: ibakey52_right

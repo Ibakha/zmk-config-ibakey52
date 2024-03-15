@@ -1,16 +1,19 @@
-if SHIELD_IBAKEY54_LEFT
+# Copyright (c) 2024 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_IBAKEY52_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "ibakey54"
+    default "ibakey52"
     
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_IBAKEY54_LEFT || SHIELD_IBAKEY54_RIGHT
+if SHIELD_IBAKEY52_LEFT || SHIELD_IBAKEY52_RIGHT
 
 config ZMK_SPLIT
     default y
 
-endif
+endif   # SHIELD_IBAKEY52_LEFT
